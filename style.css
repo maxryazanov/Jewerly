@@ -30,6 +30,10 @@ header img{
 	margin: 0 25px;
 	text-decoration: none;
 }
+.nav a:hover{
+	color: rgba(56, 0, 0, 1);
+	transition: all .4s linear;
+}
 .bg{
 	display: flex;
 	justify-content: space-between;
@@ -66,6 +70,11 @@ header img{
 	margin-bottom: 30px;
 	border: none;
 }
+button:hover{
+	cursor: pointer;
+	scale: 1.03;
+	transition: all .2s linear;
+}
 .main img{
 	padding-top: 270px;
 }
@@ -76,7 +85,7 @@ header img{
 	display: flex;
 	margin-left: 90px;
 	flex-wrap: wrap;
-	margin-bottom: 200px;
+	margin-bottom: 106px;
 }
 .card{
 	display: flex;
@@ -117,4 +126,58 @@ header img{
 	line-height: 23px;
 	color: #380000;
 	margin-bottom: 43px;
+}
+.about{
+	background: linear-gradient(90.1deg, #ECDDCA 17.27%, rgba(236, 221, 202, 0.85) 34.98%, rgba(236, 221, 202, 0.35) 63.39%, rgba(236, 221, 202, 0) 96.34%);
+	height: 495px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 130px 100px;
+}
+.left{
+	width: 543px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+/*	margin: 60px 60px 50px 100px;*/
+}
+.left h2{
+	font-size: 72px;
+	line-height: 72px;
+	font-weight: 300;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+	color: #380000;
+	padding-bottom: 48px;
+}
+.left p{
+	margin: 0;
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 300;
+	color: #380000;
+	padding-bottom: 20px;
+}
+.left button{
+	width: 531px;
+	height: 45px;
+	border: none;
+	background: #603532;
+	color: #fff;
+	font-size: 24px;
+	align-self: flex-start;
+	margin-top: 20px;
+}
+.right{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 38px 0 0 48px;
+}
+.right aside{
+	display: flex;
+	flex-direction: column;
+}
+.right aside img{
+	margin: 0 0 40px 40px;
 }
